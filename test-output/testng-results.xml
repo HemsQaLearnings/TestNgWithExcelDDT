@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-28T18:10:15 IST" name="Default suite" finished-at="2024-10-28T18:10:56 IST" duration-ms="41265">
+    <groups>
+    </groups>
+    <test started-at="2024-10-28T18:10:15 IST" name="Default test" finished-at="2024-10-28T18:10:56 IST" duration-ms="41265">
+      <class name="dataprovider.LoginTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:dataprovider.LoginTest@58cbafc2]" started-at="2024-10-28T18:10:17 IST" name="launchBrowser" finished-at="2024-10-28T18:10:24 IST" duration-ms="6672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataprovider.LoginTest@58cbafc2]" started-at="2024-10-28T18:10:24 IST" name="loginTest" data-provider="class2" finished-at="2024-10-28T18:10:27 IST" duration-ms="3243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[VALID]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dataprovider.LoginTest@58cbafc2]" started-at="2024-10-28T18:10:27 IST" name="tearDown" finished-at="2024-10-28T18:10:27 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:dataprovider.LoginTest@58cbafc2]" started-at="2024-10-28T18:10:27 IST" name="launchBrowser" finished-at="2024-10-28T18:10:34 IST" duration-ms="6349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataprovider.LoginTest@58cbafc2]" started-at="2024-10-28T18:10:34 IST" name="loginTest" data-provider="class2" finished-at="2024-10-28T18:10:37 IST" duration-ms="3880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sample]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INVALID]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dataprovider.LoginTest@58cbafc2]" started-at="2024-10-28T18:10:37 IST" name="tearDown" finished-at="2024-10-28T18:10:38 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:dataprovider.LoginTest@58cbafc2]" started-at="2024-10-28T18:10:38 IST" name="launchBrowser" finished-at="2024-10-28T18:10:43 IST" duration-ms="4784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataprovider.LoginTest@58cbafc2]" started-at="2024-10-28T18:10:43 IST" name="loginTest" data-provider="class2" finished-at="2024-10-28T18:10:47 IST" duration-ms="4434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INVALID]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dataprovider.LoginTest@58cbafc2]" started-at="2024-10-28T18:10:47 IST" name="tearDown" finished-at="2024-10-28T18:10:47 IST" duration-ms="330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:dataprovider.LoginTest@58cbafc2]" started-at="2024-10-28T18:10:47 IST" name="launchBrowser" finished-at="2024-10-28T18:10:50 IST" duration-ms="2527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataprovider.LoginTest@58cbafc2]" started-at="2024-10-28T18:10:50 IST" name="loginTest" data-provider="class2" finished-at="2024-10-28T18:10:56 IST" duration-ms="5989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INVALID]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dataprovider.LoginTest@58cbafc2]" started-at="2024-10-28T18:10:56 IST" name="tearDown" finished-at="2024-10-28T18:10:56 IST" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dataprovider.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

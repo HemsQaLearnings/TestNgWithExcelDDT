@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="MethodRuns">
+	<test thread-count="5" name="Signup_Story">
+	<classes>
+		<class name="package1_SigninModule.Signin_Module_Test">
+			<methods>
+				
+				<include name="Signin_UserName_Test"></include>
+			</methods>
+			</class>
+	</classes>
+	</test>
+</suite>
